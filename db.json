@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "firstName": "Olivia",
+      "lastName": "Davis",
+      "address": "987 Maple Ave, Other City",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "3sHjP5Ym6Z"
+    },
+    {
+      "firstName": "William",
+      "lastName": "Anderson",
+      "address": "159 Cedar Rd, Another Town",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "8tNmK9Xv2Q"
+    },
+    {
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "address": "753 Birch St, Different Place",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "5uLwF7Zy3G"
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Thompson",
+      "address": "369 Oak Ave, Some Location",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "9vRmP2Xc7D"
+    },
+    {
+      "firstName": "Isabella",
+      "lastName": "Rodriguez",
+      "address": "852 Maple Rd, Another Spot",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "7wSjT6Yb4F"
+    },
+    {
+      "firstName": "Jacob",
+      "lastName": "Hernandez",
+      "address": "741 Pine St, Different Town",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "2xNmK8Zy5G"
+    },
+    {
+      "firstName": "Ava",
+      "lastName": "Diaz",
+      "address": "963 Cedar Ave, Somewhere Else",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "5yLwF3Xc7D"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Morales",
+      "address": "258 Birch Rd, Another Location",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "8zRmP9Ym6Z"
+    },
+    {
+      "firstName": "Avery",
+      "lastName": "Reyes",
+      "address": "147 Oak St, Some Place",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "3aSjT2Xv2Q"
+    },
+    {
+      "firstName": "Lucas",
+      "lastName": "Gutierrez",
+      "address": "369 Maple Ave, Different Spot",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "7bNmK5Yb4F"
+    },
+    {
+      "firstName": "Mia",
+      "lastName": "Castillo",
+      "address": "852 Pine St, Another Location",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "2cLwF8Zc7D"
+    },
+    {
+      "firstName": "Sebastian",
+      "lastName": "Ramirez",
+      "address": "741 Cedar Rd, Somewhere Else",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "5dRmP3Ym6Z"
+    },
+    {
+      "firstName": "Emma",
+      "lastName": "Flores",
+      "address": "963 Birch Ave, Different Town",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "8eSjT7Xv2Q"
+    },
+    {
+      "firstName": "Ethan",
+      "lastName": "Moreno",
+      "address": "258 Oak St, Another Spot",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "3fNmK1Yb4F"
+    },
+    {
+      "firstName": "Isabella",
+      "lastName": "Garcia",
+      "address": "147 Maple Rd, Some Place",
+      "birthday": "2024-06-19",
+      "department": "samsung",
+      "id": "7gLwF4Zc7D"
+    }
+  ]
+}
