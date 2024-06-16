@@ -2,18 +2,21 @@ import React, { useEffect, useState } from "react";
 import imgLogo from "../../assets/images/logo.png";
 import classes from "../../assets/styles/Header.module.scss";
 import { Link, useNavigate } from "react-router-dom";
+import { Button } from "antd";
+import { LogoutOutlined } from "@ant-design/icons";
 
 const Header = () => {
-  const [token, setToken] = useState()
-  const navigate = useNavigate()
+  const [token, setToken] = useState();
+  const navigate = useNavigate();
   const handleSignOut = () => {
-    localStorage.removeItem('userToken')
-    navigate('/login')
-  }
+    localStorage.removeItem("userToken");
+    navigate("/login");
+  };
   useEffect(() => {
-    const userToken = localStorage.getItem('userToken');
-    setToken(userToken)
-  }, [token])
+    const userToken = localStorage.getItem("userToken");
+    setToken(userToken);
+  }, [token]);
+
   return (
     <div className={`bg-white ${classes.header}`}>
       <div className="container">
@@ -32,19 +35,21 @@ const Header = () => {
             </li>
             <li>
               {token ? (
-                <button
-                  className={`text-decoration-none text-uppercase ${classes.link}`}
+                <Button
                   onClick={handleSignOut}
+                  type="primary"
+                  icon={<LogoutOutlined />}
                 >
                   Logout
-                </button>
-              ) : (<Link
-                to="/login"
-                className={`text-decoration-none text-uppercase ${classes.link}`}
-              >Login
-              </Link>)}
-
-
+                </Button>
+              ) : (
+                <Link
+                  to="/login"
+                  className={`text-decoration-none text-uppercase ${classes.link}`}
+                >
+                  Login
+                </Link>
+              )}
             </li>
           </ul>
         </div>

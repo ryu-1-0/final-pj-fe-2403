@@ -1,7 +1,7 @@
 import Login from "components/Login";
 import UserCreate from "components/UserCreate";
 import UserDetail from "components/UserDetail";
-import UserList from "components/UserList";
+import UserList from "../pages/UserList.jsx";
 import LayoutRoot from "components/common/LayoutRoot";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -24,7 +24,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-
   {
     path: "/login",
     element: <Login />,

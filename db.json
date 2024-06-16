@@ -1,124 +1,84 @@
 {
   "users": [
     {
-      "firstName": "Olivia",
-      "lastName": "Davis",
-      "address": "987 Maple Ave, Other City",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "3sHjP5Ym6Z"
+      "firstName": "Charlotte",
+      "lastName": "Perez",
+      "address": "321 Maple Ave, Sunset",
+      "birthday": "2023-05-10",
+      "department": "apple",
+      "id": "2nZpQ1Wr7E"
     },
     {
-      "firstName": "William",
-      "lastName": "Anderson",
-      "address": "159 Cedar Rd, Another Town",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "8tNmK9Xv2Q"
+      "firstName": "Benjamin",
+      "lastName": "Wilson",
+      "address": "765 Cedar St, Green Hills",
+      "birthday": "2023-12-30",
+      "department": "google",
+      "id": "5pRmT9Yf2G"
     },
     {
-      "firstName": "Sophia",
-      "lastName": "Taylor",
-      "address": "753 Birch St, Different Place",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "5uLwF7Zy3G"
+      "firstName": "Amelia",
+      "lastName": "Scott",
+      "address": "432 Pine Rd, Lakeshore",
+      "birthday": "2023-04-05",
+      "department": "microsoft",
+      "id": "4qNnM6Xb1A"
     },
     {
-      "firstName": "Alexander",
-      "lastName": "Thompson",
-      "address": "369 Oak Ave, Some Location",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "9vRmP2Xc7D"
-    },
-    {
-      "firstName": "Isabella",
-      "lastName": "Rodriguez",
-      "address": "852 Maple Rd, Another Spot",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "7wSjT6Yb4F"
-    },
-    {
-      "firstName": "Jacob",
-      "lastName": "Hernandez",
-      "address": "741 Pine St, Different Town",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "2xNmK8Zy5G"
-    },
-    {
-      "firstName": "Ava",
-      "lastName": "Diaz",
-      "address": "963 Cedar Ave, Somewhere Else",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "5yLwF3Xc7D"
-    },
-    {
-      "firstName": "Daniel",
-      "lastName": "Morales",
-      "address": "258 Birch Rd, Another Location",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "8zRmP9Ym6Z"
-    },
-    {
-      "firstName": "Avery",
-      "lastName": "Reyes",
-      "address": "147 Oak St, Some Place",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "3aSjT2Xv2Q"
-    },
-    {
-      "firstName": "Lucas",
-      "lastName": "Gutierrez",
-      "address": "369 Maple Ave, Different Spot",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "7bNmK5Yb4F"
+      "firstName": "James",
+      "lastName": "Robinson",
+      "address": "876 Elm Dr, Hillside",
+      "birthday": "2023-10-22",
+      "department": "amazon",
+      "id": "8bYzK7Vg3D"
     },
     {
       "firstName": "Mia",
-      "lastName": "Castillo",
-      "address": "852 Pine St, Another Location",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "2cLwF8Zc7D"
-    },
-    {
-      "firstName": "Sebastian",
-      "lastName": "Ramirez",
-      "address": "741 Cedar Rd, Somewhere Else",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "5dRmP3Ym6Z"
-    },
-    {
-      "firstName": "Emma",
-      "lastName": "Flores",
-      "address": "963 Birch Ave, Different Town",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "8eSjT7Xv2Q"
+      "lastName": "Walker",
+      "address": "345 Oak Ln, River City",
+      "birthday": "2023-07-02",
+      "department": "facebook",
+      "id": "3wPxO2Qc9H"
     },
     {
       "firstName": "Ethan",
-      "lastName": "Moreno",
-      "address": "258 Oak St, Another Spot",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "3fNmK1Yb4F"
+      "lastName": "Young",
+      "address": "987 Elm Dr, Spring Valley",
+      "birthday": "2023-01-15",
+      "department": "apple",
+      "id": "6tYuR4Wz5J"
     },
     {
-      "firstName": "Isabella",
-      "lastName": "Garcia",
-      "address": "147 Maple Rd, Some Place",
-      "birthday": "2024-06-19",
-      "department": "samsung",
-      "id": "7gLwF4Zc7D"
+      "firstName": "Ava",
+      "lastName": "Lewis",
+      "address": "654 Pine Rd, Meadowlands",
+      "birthday": "2023-08-28",
+      "department": "google",
+      "id": "1aBcD8Zx6T"
+    },
+    {
+      "firstName": "Noah",
+      "lastName": "Hall",
+      "address": "123 Oak Ln, Riverside",
+      "birthday": "2023-03-07",
+      "department": "microsoft",
+      "id": "7kNmQ5Yd4F"
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "King",
+      "address": "876 Elm Dr, Parkside",
+      "birthday": "2023-09-18",
+      "department": "amazon",
+      "id": "9mLoP3Za8R"
+    },
+    {
+      "firstName": "Logan",
+      "lastName": "Adams",
+      "address": "543 Birch Ave, Bayview",
+      "birthday": "2023-05-29",
+      "department": "facebook",
+      "id": "2nZpQ1Wt7E"
     }
   ]
 }

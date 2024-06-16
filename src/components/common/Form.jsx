@@ -6,61 +6,61 @@ import { createUser, editUser } from "../../redux/userSlice";
 import { nanoid } from "nanoid";
 
 const Form = (props) => {
-  const navigate = useNavigate()
-  const params = useParams()
-  const dispatch = useDispatch()
+  const navigate = useNavigate();
+  const params = useParams();
+  const dispatch = useDispatch();
   const userInit = {
-    firstName: '',
-    lastName: '',
-    address: '',
-    birthday: '',
-    department: '',
-  }
-  const [user, setUser] = useState(userInit)
+    firstName: "",
+    lastName: "",
+    address: "",
+    birthday: "",
+    department: "",
+  };
+  const [user, setUser] = useState(userInit);
   const [msgError, setMsgError] = useState({
-    firstName: '',
-    lastName: '',
-    address: '',
-    birthday: '',
-    department: '',
+    firstName: "",
+    lastName: "",
+    address: "",
+    birthday: "",
+    department: "",
     // position: '',
-  })
+  });
   const messageError = {
-    firstName: '',
-    lastName: '',
-    address: '',
-    birthday: '',
-    department: '',
+    firstName: "",
+    lastName: "",
+    address: "",
+    birthday: "",
+    department: "",
     // position: '',
-  }
+  };
   const handleChangeUser = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     setUser((prevUser) => ({
       ...prevUser,
-      [e.target.name]: e.target.value
-    }))
+      [e.target.name]: e.target.value,
+    }));
     setMsgError((prevUser) => ({
       ...prevUser,
-      [e.target.name]: '',
-    }))
-  }
+      [e.target.name]: "",
+    }));
+  };
 
   const handleSubmit = async () => {
     // validate user name and password
     if (!user?.firstName?.trim()) {
-      messageError.firstName = '💀First name is require'
+      messageError.firstName = "💀First name is require";
     }
     if (!user?.lastName?.trim()) {
-      messageError.lastName = '💀Last name is require'
+      messageError.lastName = "💀Last name is require";
     }
     if (!user?.address?.trim()) {
-      messageError.address = '💀Address is require'
+      messageError.address = "💀Address is require";
     }
     if (!user?.birthday?.trim()) {
-      messageError.birthday = '💀birthday is require'
+      messageError.birthday = "💀birthday is require";
     }
     if (!user?.department?.trim()) {
-      messageError.department = '💀department is require'
+      messageError.department = "💀department is require";
     }
     setMsgError({
       ...msgError,
@@ -69,30 +69,29 @@ const Form = (props) => {
       address: messageError.address,
       birthday: messageError.birthday,
       department: messageError.department,
-    })
+    });
     // const check = Object.values(msgError).every(value => value === '')
     // console.log('check', check)
-    if (!!user?.firstName?.trim() &&
+    if (
+      !!user?.firstName?.trim() &&
       !!user?.lastName?.trim() &&
       !!user?.address?.trim() &&
-      !!user?.birthday?.trim()
-      && !!user?.department?.trim()) {
-
+      !!user?.birthday?.trim() &&
+      !!user?.department?.trim()
+    ) {
       const newUser = {
         ...user,
-        id: nanoid(10)
-      }
+        id: nanoid(10),
+      };
       if (!params?.id) {
-        await createUser(newUser)
+        await createUser(newUser);
       } else {
-        await editUser(params.id, newUser)
-        props?.resetUserDetail()
+        await editUser(params.id, newUser);
+        props?.resetUserDetail();
       }
-      navigate('/')
-
-
+      navigate("/user");
     }
-  }
+  };
   // console.log(props)
 
   useEffect(() => {
@@ -103,18 +102,18 @@ const Form = (props) => {
         lastName: props?.userDetail?.lastName,
         address: props?.userDetail?.address,
         birthday: props?.userDetail?.birthday,
-        department: props?.userDetail?.department
-      })
-
+        department: props?.userDetail?.department,
+      });
     }
-
-  }, [props?.userDetail])
+  }, [props?.userDetail]);
 
   return (
     <div className={classes.form}>
       <div className={classes.form__item}>
         <label htmlFor="firstName">First Name</label>
-        <input type="text" placeholder="Enter your first name"
+        <input
+          type="text"
+          placeholder="Enter your first name"
           name="firstName"
           value={user?.firstName}
           onChange={handleChangeUser}
@@ -122,7 +121,9 @@ const Form = (props) => {
       </div>
       <div className={classes.form__item}>
         <label htmlFor="lastName">Last Name</label>
-        <input type="text" placeholder="Enter your last name"
+        <input
+          type="text"
+          placeholder="Enter your last name"
           name="lastName"
           value={user?.lastName}
           onChange={handleChangeUser}
@@ -142,14 +143,19 @@ const Form = (props) => {
       </div>
       <div className={classes.form__item}>
         <label htmlFor="birthday">Birthday</label>
-        <input type="date" name="birthday" id="birthday"
+        <input
+          type="date"
+          name="birthday"
+          id="birthday"
           value={user?.birthday}
           onChange={handleChangeUser}
         />
       </div>
       <div className={classes.form__item}>
         <label htmlFor="department">Department</label>
-        <select name="department" id="department"
+        <select
+          name="department"
+          id="department"
           value={user?.department}
           onChange={handleChangeUser}
         >
@@ -168,9 +174,10 @@ const Form = (props) => {
         <p>{msgError?.department}</p>
       </div>
       <div className={classes.form__item}>
-        <button onClick={handleSubmit}>{props?.userDetail ? 'Edit' : 'Create'}</button>
+        <button onClick={handleSubmit}>
+          {props?.userDetail ? "Edit" : "Create"}
+        </button>
       </div>
-
     </div>
   );
 };
